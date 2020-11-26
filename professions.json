@@ -1,0 +1,34 @@
+[
+    {
+        "type": "profession",
+        "id": "cat_girl",
+        "name": "Cat girl",
+        "description": "You are a cat girl a well dressed one at that.",
+        "points": 2,
+        "traits": [ "FELINE_EARS", "FEL_EYE", "TAIL_LONG" ],
+        "items": {
+            "both": {
+                "entries": [ { "group": "cat_clothes" } ]
+            }
+        }
+    },
+    {
+        "type": "item_group",
+        "subtype": "distribution",
+        "//": "more shoes/boots, earrings, nightgowns. head, torso, legs, feet."
+        "id": "cat_clothes",
+        "entries": [
+            { "collection": [ { { "group": "hairpins" }, { "item": "" } } ] },
+            { "collection": [ {  } ] }
+        ]
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "hairpins",
+        "entries": [
+            { "item": "hairpin", "count": [ 0, 2 ] },
+            { "item": "fc_hairpin", "count": [ 0, 2 ] }
+        ]
+    }
+]

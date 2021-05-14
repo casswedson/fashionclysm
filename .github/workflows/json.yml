@@ -13,7 +13,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  JSON Validation:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -29,7 +29,7 @@ jobs:
         run: chmod +x json_formatter.cgi
 
       - name: List files
-        run: ls
+        run: ls -l
 
       - name: Validate JSON
         run: find . -name "*.json" | xargs -L 1 json_formatter.cgi

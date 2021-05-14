@@ -35,7 +35,7 @@ jobs:
         run: find . -name "*.json"
 
       - name: Validate JSON
-        run: find . -name "*.json" | xargs -L 1 tools/json_formatter.cgi
+        run: find items name "*.json" | xargs -L 1 tools/json_formatter.cgi
 
       - name: Display Corrections
         if: failure()

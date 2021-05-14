@@ -1,18 +1,18 @@
 [
-    {
-        "id": "cap",
-        "name": { "str": "baseball cap" },
-        "description": "place holder",
-        "copy-from": "hat_ball",
-        "snippet_category": [
-            { "id": "cap1", "text": "A round smiley face sponge." },
-            { "id": "cap2", "text": "A rectangular sponge with a green abrasive back." },
-            { "id": "cap3", "text": "A natural sea sponge.  It looks kind of lumpy." },
-            { "id": "cap4", "text": "A dolphin shaped sponge.  It looks at home in the water." },
-            { "id": "cap5", "text": "A rectangular sponge." },
-            { "id": "cap6", "text": "A sponge cake shaped sponge, the abrasive pad looks like frosting." },
-            { "id": "cap7", "text": "A sponge in the shape of a beloved character from a children's cartoon." },
-            { "id": "cap8", "text": "A cat shaped sponge." }
-        ]
-    }
+  {
+    "id": "cap",
+    "name": { "str": "baseball cap" },
+    "description": "place holder",
+    "copy-from": "hat_ball",
+    "snippet_category": [
+      { "id": "cap1", "text": "A round smiley face sponge." },
+      { "id": "cap2", "text": "A rectangular sponge with a green abrasive back." },
+      { "id": "cap3", "text": "A natural sea sponge.  It looks kind of lumpy." },
+      { "id": "cap4", "text": "A dolphin shaped sponge.  It looks at home in the water." },
+      { "id": "cap5", "text": "A rectangular sponge." },
+      { "id": "cap6", "text": "A sponge cake shaped sponge, the abrasive pad looks like frosting." },
+      { "id": "cap7", "text": "A sponge in the shape of a beloved character from a children's cartoon." },
+      { "id": "cap8", "text": "A cat shaped sponge." }
+    ]
+  }
 ]

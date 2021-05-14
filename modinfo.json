@@ -1,11 +1,11 @@
 [
-    {
-        "type": "MOD_INFO",
-        "id": "fashionclysm",
-        "name": "Fashionclysm",
-        "authors": [ "casswedson" ],
-        "descriptions": "Cataclysm but stylish.",
-        "category": "content",
-        "dependencies": [ "dda" ]
-    }
+  {
+    "type": "MOD_INFO",
+    "id": "fashionclysm",
+    "name": "Fashionclysm",
+    "authors": [ "casswedson" ],
+    "descriptions": "Cataclysm but stylish.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
 ]

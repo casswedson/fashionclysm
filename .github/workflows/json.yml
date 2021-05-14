@@ -25,12 +25,12 @@ jobs:
           fetch-depth: 1
 
       # Runs a set of commands using the runners shell
+      - name: Prepare formatter
+        run: chmod +x json_formatter.cgi
+
       - name: Validate JSON
-        run: |
-          ls -l
-          chmod +x json_formatter.cgi
-          ls -l
-          find . -name "*.json" | xargs -L 1 json_formatter.cgi
+        run: find . -name "*.json" | xargs -L 1 json_formatter.cgi
+
       - name: Display Corrections
         if: failure()
         run: git diff

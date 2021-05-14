@@ -28,7 +28,7 @@ jobs:
       - name: Validate JSON
         run: |
           ls -l
-          chmod x+ json_formatter.cgi
+          chmod +x json_formatter.cgi
           ls -l
           find . -name "*.json" | xargs -L 1 json_formatter.cgi
       - name: Display Corrections

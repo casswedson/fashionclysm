@@ -28,6 +28,9 @@ jobs:
       - name: Prepare formatter
         run: chmod +x json_formatter.cgi
 
+      - name: List files
+        run: ls
+
       - name: Validate JSON
         run: find . -name "*.json" | xargs -L 1 json_formatter.cgi
 
